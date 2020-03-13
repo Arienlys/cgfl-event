@@ -1,3 +1,110 @@
+/* ~~~~~~~~~~~~~~ BODY ~~~~~~~~~~~~~~*/
+body{
+    background-color:#464846;
+    margin-top:9rem;
+    color: rgb(17, 175, 238);
+}
+
+p{
+    text-align:justify;
+}
+
+a{
+    color:white!important;
+}
+
+/* ~~~~~~~~~~~~~~ JUMBOTRON ~~~~~~~~~~~~~~*/
+.jumbotron{
+    margin: 0 5rem 3rem 5rem;
+    padding:1rem;
+    background-color: rgba(0,0,0,0.40);
+}
+
+/* ~~~~~~~~~~~~~~ BISON ~~~~~~~~~~~~~~*/
+.span-presentation{
+    text-decoration: underline;
+}
+
+.row-bison{
+    margin-bottom:3rem;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+/* ~~~~~~~~~~~~~~ NAVBAR ~~~~~~~~~~~~~~*/
+.navbar{
+    background-color: rgb(235, 235, 235);
+}
+
 .btn-rose{
     background-color: #FF69B4;
+}
+
+.img-logo{
+    width:10rem;
+}
+
+/* ~~~~~~~~~~~~~~ CARD ~~~~~~~~~~~~~~*/
+.card{
+    border:none;
+    background-color:rgba(0,0,0,0.30);
+    width: 35rem;
+    margin-bottom: 3rem;
+}
+
+.card-title{
+    color:rgb(219, 113, 14);
+    margin-top:1rem;
+    font-size:30px;
+}
+
+.link-button{
+    text-align:center;
+    margin-bottom:1rem;
+}
+
+/* ~~~~~~~~~~~~~~ IFRAME ~~~~~~~~~~~~~~*/
+.twitch-bison{
+    border:none;
+    height:24rem; 
+    width:43rem;
+}
+
+.twitch-iframe{
+    height:20rem;
+    border:none;
+}
+
+/* ~~~~~~~~~~~~~~ BACKGROUND ~~~~~~~~~~~~~~*/
+.logo-bison {
+    background-image: url("../image/bison.png");
+}
+
+.logo-elina{
+    background-image: url("../image/elina.png");
+}
+
+.logo-griffont{
+    background-image: url("../image/griffont.png");
+}
+
+.logo-imeqy{
+
+}
+
+.logo-kanoute{
+
+}
+
+.logo-linko{
+    background-image: url("../image/Linko.png");
+}
+
+.logo-tacoss{
+
+}
+
+.logo-background{
+    background-position:bottom right;
+    background-repeat: no-repeat;
 }

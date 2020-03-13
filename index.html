@@ -7,6 +7,7 @@
     <meta property="og:title" content="CGLF Event">
     <meta property="og:url" content="">
     <meta property="og:image" content="./image/CGLF-50.png">
+    <meta property="og:description" content="Event caritatif visant à rassembler des fonds pour l'association de lutte contre le cancer CGLF de Dijon">
     <title>CGLF Event</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -14,54 +15,189 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-dark bg-dark">
+    <nav class="navbar fixed-top">
         <a class="navbar-brand" href="./index.html">
-            <img src="./image/CGFL-50.png" width="100" height="50" alt="">
+            <img src="./image/CGFL-50.png" class="img-logo" alt="">
         </a>
-        <a href="https://www.cgfl.fr/produit/je-fais-un-don/" class="btn btn-rose">
-            FAITES UN DON !
+
+        <div class="social-media">
+            <a onclick="window.open('https://www.facebook.com/CGFLDijon/')"><img src="./image/facebook.png"></a>
+            <a onclick="window.open('https://www.youtube.com/channel/UCHKZh_hzGmmLUX7_zIHEeLw')"><img
+                    src="./image/youtube.png"></a>
+            <a onclick="window.open('https://twitter.com/CGFL_Dijon')"><img src="./image/twitter.png"></a>
+        </div>
+
+        <a href="paypal.me/eventcgfl" class="btn btn-rose">
+            <span>&#9829;</span> FAITES UN DON !
         </a>
         <!--<a href="./index.html" class="btn btn-primary disabled">
             Accueil
         </a>
         <a href="./presentation.html" class="btn btn-primary">
-            Présentation de l'évent
+            Qui sommes nous?
         </a>-->
     </nav>
+    <div class="jumbotron">
+        <h1 class="display-4">Bienvenue sur l'event de la CGFL</h1>
+        <p class="lead">Le Centre Georges François Leclerc (CGFL) est une association visant à aider les personnes
+            atteintes de cancer dans leur lutte contre la maladie.
+            Afin de les aider, un stream caritatif de 24h est lancé pour récolter des fonds. <span
+                class="span-presentation">Tous les dons vont directement au centre, sans intermédiaire.</span>
+            Ceux-ci financeront le projet de recherche « Immuno-Frac », matérial de pointe dans la lutte
+            contre le cancer.</p>
+        <p class="lead"><span class="span-presentation">Pour rappel:</span> Les dons sont déductibles des impots (66 %
+            du montant de votre don est déductible de votre Impôt sur le Revenu dans la limite de 20 % de votre revenu
+            imposable) sur simple demande.
+            + d'infos sur l'event : event.cgfl@gmail.com</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" role="button" onclick="window.open('https://www.cgfl.fr/')">Visitez leur
+                site</a>
+        </p>
+    </div>
+
     <div class="container">
+        <div class="flex-row justify-content-between row-bison">
+            <iframe src="https://player.twitch.tv/?channel=bison_blanc" class="twitch-bison" allowfullscreen="true"
+                scrolling="no"></iframe>
 
-
-        <div class="flex-row col-12" style="margin:3rem 0; display:flex; flex-wrap: wrap;">
-            <iframe src="https://player.twitch.tv/?channel=bison_blanc" frameborder=0 allowfullscreen="true"
-                scrolling="no" style="height:24rem; width:43rem"></iframe>
-            <div class="col-4">
-                <img src="" alt="logo_bison">
+            <div class="col-xl-4 col-lg-12 logo-bison logo-background">
                 <h5 class="card-title text-center">Bison Blanc</h5>
-                <p> blabla sur l'event?</p>
-                <a href="https://www.twitch.tv/bison_blanc" class="card-link btn btn-primary">Discutez avec le streamer!</a>
+                <p class="text-event">Ceci est un texte de présentation, à personnaliser
+                    par le streamer lui même. Une rapide description de quelques lignes (ou même moins,
+                    si l'inspiration n'est pas au rendez-vous). Ce qu'il aime jouer, s'il fait des speed-runs
+                    ce pourquoi ils ont voulu faire l'event peut être? A vous de voir :>
+                    s'il est assez long il permet d'entrevoir le logo de votre chaine!</p>
+                <div class="flex-row link-button">
+                    <a target="popup"
+                        onClick="window.open('https://www.twitch.tv/popout/bison_blanc/chat?popout=','popup','width=500,height=800'); return false;"
+                        title="Lien vers le chat du streamer" class="card-link btn btn-primary col-5">Ouvrir le chat</a>
+                    <a target="popup" onClick="window.open('https://www.twitch.tv/bison_blanc')"
+                        title="Lien vers le twitch du streamer" class="card-link btn btn-secondary col-5"><span>&#8594;</span> Twitch</a>
+                </div>
             </div>
         </div>
 
-        <div class="row" style="justify-content: space-between;">
-            <div class="card" style="width: 30rem; height:20rem">
+        <div class="row justify-content-between">
+            <div class="card logo-elina logo-background">
+                <h5 class="card-title text-center">Elina</h5>
+                <iframe
+                    src="https://player.twitch.tv/?channel=arienlys"
+                    class="twitch-iframe"></iframe>
+                <p class="card-text text-center">Ceci est un texte de présentation, à personnaliser
+                    par le streamer lui même. Une rapide description de quelques lignes (ou même moins,
+                    si l'inspiration n'est pas au rendez-vous). Ce qu'il aime jouer, s'il fait des speed-runs
+                    ce pourquoi ils ont voulu faire l'event peut être? A vous de voir :>
+                    s'il est assez long il permet d'entrevoir le logo de votre chaine!
+                </p>
+                <div class="flex-row link-button">
+                    <a target="popup"
+                        onClick="window.open('https://www.twitch.tv/popout/arienlys/chat?popout=','popup','width=500,height=800'); return false;"
+                        title="Lien vers le chat du streamer" class="card-link btn btn-primary col-5">Ouvrir le chat</a>
+                    <a target="popup" onClick="window.open('https://www.twitch.tv/arienlys')"
+                        title="Lien vers le twitch du streamer" class="card-link btn btn-secondary col-5"><span>&#8594;</span> Twitch</a>
+                </div>
+            </div>
+
+            <div class="card logo-griffont logo-background">
+                <h5 class="card-title text-center">Griffont</h5>
+                <iframe
+                    src="https://player.twitch.tv/?channel=griffont39"
+                    class="twitch-iframe"></iframe>
+                <p class="card-text text-center">Ceci est un texte de présentation, à personnaliser
+                    par le streamer lui même. Une rapide description de quelques lignes (ou même moins,
+                    si l'inspiration n'est pas au rendez-vous). Ce qu'il aime jouer, s'il fait des speed-runs
+                    ce pourquoi ils ont voulu faire l'event peut être? A vous de voir :>
+                    s'il est assez long il permet d'entrevoir le logo de votre chaine!
+                </p>
+                <div class="flex-row link-button">
+                    <a target="popup"
+                        onClick="window.open('https://www.twitch.tv/popout/griffont39/chat?popout=','popup','width=500,height=800'); return false;"
+                        title="Lien vers le chat du streamer" class="card-link btn btn-primary col-5">Ouvrir le chat</a>
+                    <a target="popup" onClick="window.open('https://www.twitch.tv/griffont39')"
+                        title="Lien vers le twitch du streamer" class="card-link btn btn-secondary col-5"><span>&#8594;</span> Twitch</a>
+                </div>
+            </div>
+
+            <div class="card logo-imeqy logo-background">
+                <h5 class="card-title text-center">Imeqy</h5>
+                <iframe
+                    src="https://player.twitch.tv/?channel=imeqy"
+                    class="twitch-iframe"></iframe>
+                <p class="card-text text-center">Ceci est un texte de présentation, à personnaliser
+                    par le streamer lui même. Une rapide description de quelques lignes (ou même moins,
+                    si l'inspiration n'est pas au rendez-vous). Ce qu'il aime jouer, s'il fait des speed-runs
+                    ce pourquoi ils ont voulu faire l'event peut être? A vous de voir :>
+                    s'il est assez long il permet d'entrevoir le logo de votre chaine!
+                </p>
+                <div class="flex-row link-button">
+                    <a target="popup"
+                        onClick="window.open('https://www.twitch.tv/popout/imeqy/chat?popout=','popup','width=500,height=800'); return false;"
+                        title="Lien vers le chat du streamer" class="card-link btn btn-primary col-5">Ouvrir le chat</a>
+                    <a target="popup" onClick="window.open('https://www.twitch.tv/imeqy')"
+                        title="Lien vers le twitch du streamer" class="card-link btn btn-secondary col-5"><span>&#8594;</span> Twitch</a>
+                </div>
+            </div>
+
+            <div class="card logo-kanoute logo-background">
+                <h5 class="card-title text-center">Kanoute</h5>
+                <iframe
+                    src="https://player.twitch.tv/?channel=mrgroottv"
+                    class="twitch-iframe"></iframe>
+                <p class="card-text text-center">Ceci est un texte de présentation, à personnaliser
+                    par le streamer lui même. Une rapide description de quelques lignes (ou même moins,
+                    si l'inspiration n'est pas au rendez-vous). Ce qu'il aime jouer, s'il fait des speed-runs
+                    ce pourquoi ils ont voulu faire l'event peut être? A vous de voir :>
+                    s'il est assez long il permet d'entrevoir le logo de votre chaine!
+                </p>
+                <div class="flex-row link-button">
+                    <a target="popup"
+                        onClick="window.open('https://www.twitch.tv/popout/mrgroottv/chat?popout=','popup','width=500,height=800'); return false;"
+                        title="Lien vers le chat du streamer" class="card-link btn btn-primary col-5">Ouvrir le chat</a>
+                    <a target="popup" onClick="window.open('https://www.twitch.tv/mrgroottv')"
+                        title="Lien vers le twitch du streamer" class="card-link btn btn-secondary col-5"><span>&#8594;</span> Twitch</a>
+                </div>
+            </div>
+
+            <div class="card logo-linko logo-background">
+                <h5 class="card-title text-center">Linkonito</h5>
+                <iframe
+                    src="https://player.twitch.tv/?channel=linkonitotv"
+                    class="twitch-iframe"></iframe>
+                <p class="card-text text-center">Ceci est un texte de présentation, à personnaliser
+                    par le streamer lui même. Une rapide description de quelques lignes (ou même moins,
+                    si l'inspiration n'est pas au rendez-vous). Ce qu'il aime jouer, s'il fait des speed-runs
+                    ce pourquoi ils ont voulu faire l'event peut être? A vous de voir :>
+                    s'il est assez long il permet d'entrevoir le logo de votre chaine!
+                </p>
+                <div class="flex-row link-button">
+                    <a target="popup"
+                        onClick="window.open('https://www.twitch.tv/popout/linkonitotv/chat?popout=','popup','width=500,height=800'); return false;"
+                        title="Lien vers le chat du streamer" class="card-link btn btn-primary col-5">Ouvrir le chat</a>
+                    <a target="popup" onClick="window.open('https://www.twitch.tv/linkonitotv/')"
+                        title="Lien vers le twitch du streamer" class="card-link btn btn-secondary col-5"><span>&#8594;</span> Twitch</a>
+                </div>
+            </div>
+            
+            <div class="card logo-tacoss logo-background">
                 <h5 class="card-title text-center">Tacoss</h5>
                 <iframe
-                    src="https://player.twitch.tv/?channel=tacoss51&enableExtensions=true&muted=false&player=popout&volume=0.21"></iframe>
-                <p class="card-text text-center">il est bien</p>
-                <a href="#" class="card-link btn btn-primary">Va le voir</a>
+                    src="https://player.twitch.tv/?channel=tacoss51&enableExtensions=true&muted=false&player=popout&volume=0.21"
+                    class="twitch-iframe"></iframe>
+                <p class="card-text text-center">Ceci est un texte de présentation, à personnaliser
+                    par le streamer lui même. Une rapide description de quelques lignes (ou même moins,
+                    si l'inspiration n'est pas au rendez-vous). Ce qu'il aime jouer, s'il fait des speed-runs
+                    ce pourquoi ils ont voulu faire l'event peut être? A vous de voir :>
+                    s'il est assez long il permet d'entrevoir le logo de votre chaine!
+                </p>
+                <div class="flex-row link-button">
+                    <a target="popup"
+                        onClick="window.open('https://www.twitch.tv/popout/tacoss51/chat?popout=','popup','width=500,height=800'); return false;"
+                        title="Lien vers le chat du streamer" class="card-link btn btn-primary col-5">Ouvrir le chat</a>
+                    <a target="popup" onClick="window.open('https://www.twitch.tv/tacoss51')"
+                        title="Lien vers le twitch du streamer" class="card-link btn btn-secondary col-5"><span>&#8594;</span> Twitch</a>
+                </div>
             </div>
-            <div class="card" style="width: 30rem; height:20rem">
-                <h5 class="card-title text-center">Griffont</h5>
-                <iframe src="twitch à mettre"></iframe>
-                <p class="card-text text-center">il est bien</p>
-                <a href="#" class="card-link btn btn-primary">Va le voir</a>
-            </div>
-            <div class="card" style="width: 30rem; height:20rem">
-                <h5 class="card-title text-center">Elina</h5>
-                <iframe src="twitch à mettre"></iframe>
-                <p class="card-text text-center">il est bien</p>
-                <a href="#" class="card-link btn btn-primary">Va le voir</a>
-            </div>
+
         </div>
     </div>
     </div>
