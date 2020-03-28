@@ -38,6 +38,9 @@ a{
 
 .btn-rose{
     background-color: #FF69B4;
+    width: 15rem;
+    height: 3rem;
+    font-size: larger;
 }
 
 .img-logo{
