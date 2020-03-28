@@ -101,7 +101,7 @@ a{
 }
 
 .logo-kanoute{
-
+    background-image: url("../image/avatar_kanoute.png");
 }
 
 .logo-linko{
@@ -109,7 +109,7 @@ a{
 }
 
 .logo-tacoss{
-
+    background-image: url("../image/Tacos.png");
 }
 
 .logo-background{
