@@ -1,7 +1,7 @@
 /* ~~~~~~~~~~~~~~ BODY ~~~~~~~~~~~~~~*/
 body{
     background-color:#464846;
-    margin-top:9rem;
+    margin-top:6rem;
     color: rgb(17, 175, 238);
 }
 
@@ -11,6 +11,12 @@ p{
 
 a{
     color:white!important;
+}
+
+.banniere_top{
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 /* ~~~~~~~~~~~~~~ JUMBOTRON ~~~~~~~~~~~~~~*/
@@ -98,7 +104,7 @@ a{
 }
 
 .logo-imeqy{
-
+    background-image: url("../image/imeqy.png");
 }
 
 .logo-kanoute{
